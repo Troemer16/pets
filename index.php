@@ -8,9 +8,9 @@
 
     //Define a default route
     $f3->route('GET /', function() {
-        //echo "<h1>Pet Home</h1>";
+//        echo "<h1>Pet Home</h1>";
         $view = new View();
-        echo $view ->rendor("views/home.html");
+        echo $view ->render("views/home.html");
     });
 
     //Run Fat-Free
